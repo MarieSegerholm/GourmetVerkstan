@@ -4,6 +4,7 @@ const nextConfig = {
     locales: ['sv', 'en'],
     defaultLocale: 'sv',
   },
+  pageExtensions: ['js'],
 };
 
 export default nextConfig;
