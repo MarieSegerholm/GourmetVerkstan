@@ -1,12 +1,9 @@
 const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    appDir: true
-  },
   i18n: {
     locales: ['sv', 'en'],
-    defaultLocale: 'sv'
-  }
-}
+    defaultLocale: 'sv',
+  },
+};
 
-export default nextConfig
+export default nextConfig;
