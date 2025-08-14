@@ -1,0 +1,407 @@
+{
+  "chefs": [
+    {
+      "id": "stefan",
+      "name": "Stefan Silverå",
+      "bio": "Profilerad kock och mentor från GourmetVerkstan med specialitet fisk, skaldjur och italiensk mat. Han fungerar som projektets verkliga kock och ansikte utåt."
+    },
+    {
+      "id": "sakura",
+      "name": "Sakura Tanaka",
+      "bio": "Virtuell japansk kock uppvuxen i Kyoto som blandar traditionella smaker med modern fusionsmat. Hon delar kulturella historier och tekniker från det japanska köket."
+    },
+    {
+      "id": "marco",
+      "name": "Marco Bellini",
+      "bio": "Virtuell italiensk kock från Neapel som levererar autentiska och street food-inspirerade italianska rätter med passion och familjetraditioner."
+    }
+  ],
+  "recipes": [
+    {
+      "id": "kottbullar",
+      "title": "Köttbullar",
+      "summary": "Klassiska köttbullar med kryddor och potatisgratäng; en favorit i svensk husmanskost.",
+      "prepTime": 20,
+      "totalTime": 60,
+      "difficulty": 2,
+      "servings": 4,
+      "calories": 600,
+      "ingredients": [
+        {"item": "Köttfärs", "quantity": 400, "unit": "g"},
+        {"item": "Mjölk", "quantity": 2, "unit": "dl"},
+        {"item": "Ägg", "quantity": 1, "unit": "st"},
+        {"item": "Ströbröd", "quantity": 1, "unit": "dl"},
+        {"item": "Gul lök", "quantity": 1, "unit": "st"},
+        {"item": "Salt", "quantity": null, "unit": null},
+        {"item": "Peppar", "quantity": null, "unit": null}
+      ],
+      "instructions": [
+        "Blötlägg ströbröd i mjölk i 5 minuter.",
+        "Finhacka löken och stek mjuk i smör.",
+        "Blanda köttfärs, ströbröd, mjölk, lök och ägg. Krydda med salt och peppar.",
+        "Rulla till små bollar och stek i smör tills genomstekta."
+      ],
+      "allergyWarnings": ["Mjölk", "Ägg"],
+      "substitutions": ["Använd havremjölk istället för mjölk för laktosfri version."],
+      "storageTips": "Förvara köttbullarna i kylskåp upp till 3 dagar.",
+      "shoppingList": {
+        "Mejeri & Ägg": ["2 dl mjölk", "1 ägg"],
+        "Kött/Fisk/Alternativ": ["400 g köttfärs"],
+        "Torrvaror & Skafferi": ["1 dl ströbröd"],
+        "Frukt & Grönt": ["1 gul lök"],
+        "Kryddor & Övrigt": ["salt", "peppar"]
+      },
+      "story": "Stefan lärde sig laga köttbullar från sin mormor och förfinade receptet under åren.",
+      "reasoning_checks": ["mängder rimliga", "tider rimliga", "allergier markerade"]
+    },
+    {
+      "id": "potatisgratang",
+      "title": "Potatisgratäng",
+      "summary": "Krämig potatisgratäng med grädde och ost, perfekt till kött eller som vegetarisk rätt.",
+      "prepTime": 15,
+      "totalTime": 75,
+      "difficulty": 2,
+      "servings": 4,
+      "calories": 450,
+      "ingredients": [
+        {"item": "Potatis", "quantity": 800, "unit": "g"},
+        {"item": "Vispgrädde", "quantity": 3, "unit": "dl"},
+        {"item": "Mjölk", "quantity": 1, "unit": "dl"},
+        {"item": "Riven ost", "quantity": 2, "unit": "dl"},
+        {"item": "Vitlök", "quantity": 1, "unit": "klyfta"},
+        {"item": "Salt", "quantity": null, "unit": null},
+        {"item": "Peppar", "quantity": null, "unit": null}
+      ],
+      "instructions": [
+        "Sätt ugnen på 200 grader.",
+        "Skala och skiva potatis tunt.",
+        "Lägg potatisskivorna i en smord ugnsform.",
+        "Blanda grädde, mjölk, pressad vitlök, salt och peppar och häll över potatisen.",
+        "Strö ost ovanpå och grädda i ugnen i ca 1 timme tills potatisen är mjuk."
+      ],
+      "allergyWarnings": ["Mjölk"],
+      "substitutions": ["Byt grädde mot havregrädde och ost mot vegansk ost för vegansk version."],
+      "storageTips": "Förvara i kylskåp och värm upp i ugn för bästa resultat.",
+      "shoppingList": {
+        "Frukt & Grönt": ["800 g potatis", "1 vitlöksklyfta"],
+        "Mejeri & Ägg": ["3 dl vispgrädde", "1 dl mjölk", "2 dl riven ost"],
+        "Kryddor & Övrigt": ["salt", "peppar"]
+      },
+      "story": "En klassisk gratäng som alltid får familjen att samlas runt bordet.",
+      "reasoning_checks": ["mängder rimliga", "tider rimliga", "allergier markerade"]
+    },
+    {
+      "id": "laxfile",
+      "title": "Laxfilé i ugn",
+      "summary": "Saftig ugnsbakad laxfilé med dill och citron.",
+      "prepTime": 10,
+      "totalTime": 30,
+      "difficulty": 1,
+      "servings": 4,
+      "calories": 400,
+      "ingredients": [
+        {"item": "Laxfilé", "quantity": 600, "unit": "g"},
+        {"item": "Citron", "quantity": 1, "unit": "st"},
+        {"item": "Färsk dill", "quantity": 1, "unit": "knippe"},
+        {"item": "Olivolja", "quantity": 2, "unit": "msk"},
+        {"item": "Salt", "quantity": null, "unit": null},
+        {"item": "Peppar", "quantity": null, "unit": null}
+      ],
+      "instructions": [
+        "Sätt ugnen på 175 grader.",
+        "Lägg laxfilén i en ugnsform.",
+        "Ringla över olivolja, pressa citronsaft och strö hackad dill, salt och peppar.",
+        "Baka i ugnen i 20 minuter tills laxen är genomstekt."
+      ],
+      "allergyWarnings": [],
+      "substitutions": ["Använd lime istället för citron för annan smak."],
+      "storageTips": "Förvara laxen i kylskåp och ät inom 2 dagar.",
+      "shoppingList": {
+        "Kött/Fisk/Alternativ": ["600 g laxfilé"],
+        "Frukt & Grönt": ["1 citron", "1 knippe dill"],
+        "Kryddor & Övrigt": ["2 msk olivolja", "salt", "peppar"]
+      },
+      "story": "Dill och citron förhöjer laxens naturliga smaker i detta enkla recept.",
+      "reasoning_checks": ["mängder rimliga", "tider rimliga", "allergier markerade"]
+    },
+    {
+      "id": "kycklinggryta",
+      "title": "Kycklinggryta",
+      "summary": "Mustig kycklinggryta med rotfrukter och gräddig sås.",
+      "prepTime": 20,
+      "totalTime": 50,
+      "difficulty": 2,
+      "servings": 4,
+      "calories": 550,
+      "ingredients": [
+        {"item": "Kycklingfilé", "quantity": 600, "unit": "g"},
+        {"item": "Morötter", "quantity": 2, "unit": "st"},
+        {"item": "Potatis", "quantity": 400, "unit": "g"},
+        {"item": "Gul lök", "quantity": 1, "unit": "st"},
+        {"item": "Matlagningsgrädde", "quantity": 3, "unit": "dl"},
+        {"item": "Kycklingbuljong", "quantity": 2, "unit": "dl"},
+        {"item": "Smör", "quantity": 1, "unit": "msk"},
+        {"item": "Salt", "quantity": null, "unit": null},
+        {"item": "Peppar", "quantity": null, "unit": null}
+      ],
+      "instructions": [
+        "Skär kycklingfiléerna i bitar och bryn i smör i en gryta.",
+        "Skala och skär morötter och potatis i bitar, hacka löken.",
+        "Tillsätt rotfrukterna till grytan och fräs några minuter.",
+        "Häll över buljong och låt koka under lock i 20 minuter.",
+        "Tillsätt grädde, smaka av med salt och peppar och låt koka upp."
+      ],
+      "allergyWarnings": ["Mjölk"],
+      "substitutions": ["Byt ut grädden mot kokosmjölk för en laktosfri version."],
+      "storageTips": "Förvara grytan i kylskåp och ät inom 3 dagar.",
+      "shoppingList": {
+        "Kött/Fisk/Alternativ": ["600 g kycklingfilé"],
+        "Frukt & Grönt": ["2 morötter", "400 g potatis", "1 gul lök"],
+        "Mejeri & Ägg": ["3 dl matlagningsgrädde"],
+        "Torrvaror & Skafferi": ["2 dl kycklingbuljong", "1 msk smör"],
+        "Kryddor & Övrigt": ["salt", "peppar"]
+      },
+      "story": "En värmande gryta inspirerad av husmanskost som passar hela familjen.",
+      "reasoning_checks": ["mängder rimliga", "tider rimliga", "allergier markerade"]
+    },
+    {
+      "id": "tomatsoppa",
+      "title": "Tomatsoppa",
+      "summary": "Lättlagad tomatsoppa med basilika och en hint av vitlök.",
+      "prepTime": 10,
+      "totalTime": 25,
+      "difficulty": 1,
+      "servings": 4,
+      "calories": 200,
+      "ingredients": [
+        {"item": "Krossade tomater", "quantity": 2, "unit": "burk"},
+        {"item": "Grönsaksbuljong", "quantity": 5, "unit": "dl"},
+        {"item": "Vitlök", "quantity": 2, "unit": "klyftor"},
+        {"item": "Färsk basilika", "quantity": 1, "unit": "kruka"},
+        {"item": "Olivolja", "quantity": 1, "unit": "msk"},
+        {"item": "Salt", "quantity": null, "unit": null},
+        {"item": "Peppar", "quantity": null, "unit": null}
+      ],
+      "instructions": [
+        "Fräs hackad vitlök i olivolja i en kastrull.",
+        "Tillsätt krossade tomater och buljong och låt koka i 15 minuter.",
+        "Mixa soppan slät med stavmixer.",
+        "Tillsätt hackad basilika och smaka av med salt och peppar."
+      ],
+      "allergyWarnings": [],
+      "substitutions": ["Byt ut basilikan mot oregano för annan smak."],
+      "storageTips": "Förvara soppan i kylskåp och värm upp före servering.",
+      "shoppingList": {
+        "Torrvaror & Skafferi": ["2 burkar krossade tomater", "5 dl grönsaksbuljong", "1 msk olivolja"],
+        "Frukt & Grönt": ["2 vitlöksklyftor", "1 kruka basilika"],
+        "Kryddor & Övrigt": ["salt", "peppar"]
+      },
+      "story": "Denna soppa är en snabb räddare i vardagen och smakar extra gott med färsk basilika.",
+      "reasoning_checks": ["mängder rimliga", "tider rimliga", "allergier markerade"]
+    },
+    {
+      "id": "vegolasagne",
+      "title": "Vegetarisk lasagne",
+      "summary": "Lasagne med spenat och ricotta, en grön variant av den klassiska italienska rätten.",
+      "prepTime": 30,
+      "totalTime": 90,
+      "difficulty": 3,
+      "servings": 6,
+      "calories": 550,
+      "ingredients": [
+        {"item": "Lasagneplattor", "quantity": 9, "unit": "st"},
+        {"item": "Spenat", "quantity": 200, "unit": "g"},
+        {"item": "Ricottaost", "quantity": 250, "unit": "g"},
+        {"item": "Krossade tomater", "quantity": 2, "unit": "burk"},
+        {"item": "Lök", "quantity": 1, "unit": "st"},
+        {"item": "Vitlök", "quantity": 2, "unit": "klyftor"},
+        {"item": "Olivolja", "quantity": 2, "unit": "msk"},
+        {"item": "Salt", "quantity": null, "unit": null},
+        {"item": "Peppar", "quantity": null, "unit": null}
+      ],
+      "instructions": [
+        "Sätt ugnen på 200 grader.",
+        "Fräs hackad lök och vitlök i olja, tillsätt krossade tomater och låt sjuda.",
+        "Blanda spenat och ricotta i en skål.",
+        "Varva tomatsås, lasagneplattor och spenatblandning i en ugnsform.",
+        "Avsluta med tomatsås och grädda i ugn i 40 minuter."
+      ],
+      "allergyWarnings": ["Mjölk"],
+      "substitutions": ["Byt ut ricotta mot tofu för vegansk version."],
+      "storageTips": "Lasagnen går bra att frysa in och värmas upp senare.",
+      "shoppingList": {
+        "Torrvaror & Skafferi": ["9 lasagneplattor", "2 burkar krossade tomater", "2 msk olivolja"],
+        "Frukt & Grönt": ["200 g spenat", "1 lök", "2 vitlöksklyftor"],
+        "Mejeri & Ägg": ["250 g ricottaost"],
+        "Kryddor & Övrigt": ["salt", "peppar"]
+      },
+      "story": "Sakura inspireras av italienska lasagner och ger en grön twist på denna älskade rätt.",
+      "reasoning_checks": ["mängder rimliga", "tider rimliga", "allergier markerade"]
+    },
+    {
+      "id": "pannkakor",
+      "title": "Pannkakor",
+      "summary": "Tunna pannkakor som hela familjen älskar, serveras med sylt och grädde.",
+      "prepTime": 10,
+      "totalTime": 30,
+      "difficulty": 1,
+      "servings": 4,
+      "calories": 350,
+      "ingredients": [
+        {"item": "Vetemjöl", "quantity": 3, "unit": "dl"},
+        {"item": "Mjölk", "quantity": 6, "unit": "dl"},
+        {"item": "Ägg", "quantity": 3, "unit": "st"},
+        {"item": "Smör", "quantity": 2, "unit": "msk"},
+        {"item": "Salt", "quantity": 1, "unit": "krm"}
+      ],
+      "instructions": [
+        "Vispa ihop mjöl, mjölk, ägg och salt till en slät smet.",
+        "Låt smeten svälla i 10 minuter.",
+        "Stek tunna pannkakor i smör i en het stekpanna.",
+        "Servera med sylt och grädde."
+      ],
+      "allergyWarnings": ["Mjölk", "Ägg", "Gluten"],
+      "substitutions": ["Använd glutenfritt mjöl för glutenfri version."],
+      "storageTips": "Pannkakor är godast direkt men kan sparas i kylskåp en dag.",
+      "shoppingList": {
+        "Torrvaror & Skafferi": ["3 dl vetemjöl", "1 krm salt"],
+        "Mejeri & Ägg": ["6 dl mjölk", "3 ägg", "2 msk smör"]
+      },
+      "story": "Traditionella pannkakor är en svensk klassiker, perfekta för helgfrukosten.",
+      "reasoning_checks": ["mängder rimliga", "tider rimliga", "allergier markerade"]
+    },
+    {
+      "id": "kladdkaka",
+      "title": "Kladdkaka",
+      "summary": "En kladdig chokladkaka med spröd yta och mjuk kärna.",
+      "prepTime": 15,
+      "totalTime": 40,
+      "difficulty": 1,
+      "servings": 8,
+      "calories": 450,
+      "ingredients": [
+        {"item": "Smör", "quantity": 150, "unit": "g"},
+        {"item": "Strösocker", "quantity": 3, "unit": "dl"},
+        {"item": "Kakao", "quantity": 1, "unit": "dl"},
+        {"item": "Vetemjöl", "quantity": 2, "unit": "dl"},
+        {"item": "Ägg", "quantity": 2, "unit": "st"},
+        {"item": "Vaniljsocker", "quantity": 1, "unit": "tsk"}
+      ],
+      "instructions": [
+        "Sätt ugnen på 175 grader.",
+        "Smält smöret i en kastrull.",
+        "Rör ihop socker, kakao, vaniljsocker, vetemjöl och smält smör.",
+        "Tillsätt äggen och rör till en jämn smet.",
+        "Häll smeten i en smord form och grädda i 20 minuter."
+      ],
+      "allergyWarnings": ["Mjölk", "Ägg", "Gluten"],
+      "substitutions": ["Använd glutenfritt mjöl och mjölkfritt margarin för allergianpassning."],
+      "storageTips": "Förvara kakan i rumstemperatur under plastfolie i upp till 3 dagar.",
+      "shoppingList": {
+        "Torrvaror & Skafferi": ["3 dl strösocker", "1 dl kakao", "2 dl vetemjöl", "1 tsk vaniljsocker"],
+        "Mejeri & Ägg": ["150 g smör", "2 ägg"]
+      },
+      "story": "Denna kladdkaka är Marcos favoritdessert som han bakar till alla familjesammankomster.",
+      "reasoning_checks": ["mängder rimliga", "tider rimliga", "allergier markerade"]
+    },
+    {
+      "id": "raksallad",
+      "title": "Räksallad",
+      "summary": "Fräsch sallad med räkor, avokado och en syrlig dressing.",
+      "prepTime": 15,
+      "totalTime": 15,
+      "difficulty": 1,
+      "servings": 2,
+      "calories": 300,
+      "ingredients": [
+        {"item": "Räkor", "quantity": 200, "unit": "g"},
+        {"item": "Avokado", "quantity": 1, "unit": "st"},
+        {"item": "Blandsallad", "quantity": 100, "unit": "g"},
+        {"item": "Citron", "quantity": 0.5, "unit": "st"},
+        {"item": "Olivolja", "quantity": 2, "unit": "msk"},
+        {"item": "Salt", "quantity": null, "unit": null},
+        {"item": "Peppar", "quantity": null, "unit": null}
+      ],
+      "instructions": [
+        "Skala räkorna om de är oskalade.",
+        "Dela avokadon och skär i bitar.",
+        "Blanda salladsblad, räkor och avokado i en skål.",
+        "Pressa över citron, ringla olivolja och smaka av med salt och peppar."
+      ],
+      "allergyWarnings": ["Skaldjur"],
+      "substitutions": ["Byt ut räkor mot grillad kyckling för annan variant."],
+      "storageTips": "Salladen bör ätas direkt för bäst smak.",
+      "shoppingList": {
+        "Kött/Fisk/Alternativ": ["200 g räkor"],
+        "Frukt & Grönt": ["1 avokado", "100 g blandsallad", "0.5 citron"],
+        "Kryddor & Övrigt": ["2 msk olivolja", "salt", "peppar"]
+      },
+      "story": "En lätt och nyttig sommarsallad som är perfekt till lunch.",
+      "reasoning_checks": ["mängder rimliga", "tider rimliga", "allergier markerade"]
+    },
+    {
+      "id": "gron_smoothie",
+      "title": "Grön smoothie",
+      "summary": "Näringsrik smoothie med spenat, banan och äpple.",
+      "prepTime": 5,
+      "totalTime": 5,
+      "difficulty": 1,
+      "servings": 1,
+      "calories": 180,
+      "ingredients": [
+        {"item": "Spenat", "quantity": 50, "unit": "g"},
+        {"item": "Banan", "quantity": 1, "unit": "st"},
+        {"item": "Äpple", "quantity": 1, "unit": "st"},
+        {"item": "Havremjölk", "quantity": 2, "unit": "dl"},
+        {"item": "Citronsaft", "quantity": 1, "unit": "msk"}
+      ],
+      "instructions": [
+        "Skölj spenaten och skär äpplet i bitar.",
+        "Mixa alla ingredienser i en blender tills smoothien är slät.",
+        "Servera direkt."
+      ],
+      "allergyWarnings": [],
+      "substitutions": ["Byt havremjölk mot mandelmjölk för annan smak."],
+      "storageTips": "Drick smoothien direkt för att behålla näringen.",
+      "shoppingList": {
+        "Frukt & Grönt": ["50 g spenat", "1 banan", "1 äpple"],
+        "Mejeri & Ägg": ["2 dl havremjölk"],
+        "Kryddor & Övrigt": ["1 msk citronsaft"]
+      },
+      "story": "En snabb och energigivande start på dagen, inspirerad av hälsosamma trender.",
+      "reasoning_checks": ["mängder rimliga", "tider rimliga", "allergier markerade"]
+    }
+  ],
+  "course": {
+    "id": "grundkurs_husmanskost",
+    "title": "Grundkurs i svensk husmanskost",
+    "description": "Lär dig att laga klassiska svenska rätter från grunden med steg-för-steg-vägledning.",
+    "chapters": [
+      {
+        "title": "Köttbullar och potatisgratäng",
+        "content": "I detta kapitel går vi igenom hur man lagar saftiga köttbullar och krämig potatisgratäng.",
+        "recipes": ["kottbullar", "potatisgratang"]
+      },
+      {
+        "title": "Ugnsbakad lax",
+        "content": "Här lär du dig att tillaga en perfekt ugnsbakad lax med dill och citron.",
+        "recipes": ["laxfile"]
+      },
+      {
+        "title": "Kycklinggryta",
+        "content": "Vi lagar en mustig kycklinggryta med rotfrukter och gräddig sås.",
+        "recipes": ["kycklinggryta"]
+      },
+      {
+        "title": "Soppor och sallader",
+        "content": "Skapa en lätt tomatsoppa och en fräsch räksallad.",
+        "recipes": ["tomatsoppa", "raksallad"]
+      },
+      {
+        "title": "Pannkakor och kladdkaka",
+        "content": "Avsluta med söta klassiker: pannkakor och kladdkaka.",
+        "recipes": ["pannkakor", "kladdkaka"]
+      }
+    ]
+  }
+}
